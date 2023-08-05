@@ -14,7 +14,7 @@ function App() {
         <p>
           <h4>Katharine</h4>
           <li>My favourite hobby is reading.</li>
-          <li>I do this because it's not coding and it doesn't make me cry.</li>
+          <li>I do this because I like new ideas and stories about the world.</li>
         </p>
       </header>
     </div>
