@@ -37,6 +37,14 @@ function App() {
             my body, and activities which get me thinking more.
           </li>
         </p>
+        <p>
+          <h4>Roinee</h4>
+          <li>My favourite hobbies are reading and scrolling through Pinterest</li>
+          <li>
+            Reading allows me to escape into wonderful worlds with all kinds of perils and fun.
+            Scrolling through Pinterest allows me to think about new ideas and fid new books to read.
+          </li>
+        </p>
       </header>
     </div>
   );
