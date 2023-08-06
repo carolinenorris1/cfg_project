@@ -28,6 +28,15 @@ function App() {
             I love doing them ❤️ I also like emojis.
           </li>
         </p>
+        <p>
+          <h4>Ruth</h4>
+          <li>My favourite hobbies are working out, baking, and reading.</li>
+          <li>
+            These hobbies keep me healthy, sane, and learning. I love a balance 
+            of things which stop me thinking, and get me out of my head & into 
+            my body, and activities which get me thinking more.
+          </li>
+        </p>
       </header>
     </div>
   );
