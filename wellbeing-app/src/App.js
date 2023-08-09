@@ -49,7 +49,7 @@ function App() {
           <h4>Mariam</h4>
           <li>My favourite hobbies are doing puzzles, DIY-ing, driving and going to the theatre.</li>
           <li>
-            I feel these hobbies help stimulate all parts of my personality and mind,
+            I feel these hobbies help stimulate all parts of my personality and mind;
             they allow me to create, travel, connect with people and my inner self.
           </li>
         </p>
