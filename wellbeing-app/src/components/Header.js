@@ -11,7 +11,6 @@ function Header({ setSelectedPage }) {
           WellnessApp
         </button>
         <button onClick={() => setSelectedPage("wellbeing")}>Wellbeing</button>
-        <button onClick={() => setSelectedPage("demo")}>Demo</button>
         <button onClick={() => setSelectedPage("community")}>Community</button>
       </div>
     </div>

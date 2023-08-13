@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Home from "../src/pages/Home";
 import Wellbeing from "../src/pages/Wellbeing";
 import WellnessApp from "../src/pages/WellnessApp";
-import Demo from "../src/pages/Demo";
 import Community from "../src/pages/Community";
 import MainSection from "../src/components/MainSection";
 import Footer from "../src/components/Footer";
@@ -20,8 +19,6 @@ function MainPage() {
         return <Wellbeing />;
       case "wellnessApp":
         return <WellnessApp />;
-      case "demo":
-        return <Demo />;
       case "community":
         return <Community />;
       default:
