@@ -3,26 +3,42 @@ import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import eyeAnimationSideToSide from "../assets/eye-animation-side-to-side.gif";
 import eyeAnimationLookingUp from "../assets/eye-animation-looking-up.gif";
 import windchimesSound from "../assets/windchimes.mp3";
+import cheeringCrowdSound from "../assets/cheering-crowd.mp3";
+
 
 function Demo() {
     
     const [key, setKey] = useState(0);
     const [runTimeInMinutes, setRunTimeInMinutes] = useState(20);
     const [breakTimeInSeconds, setBreakTimeInSeconds] = useState(20);
+    const [alarmSound, setAlarmSound] = useState(windchimesSound);
     const [isPlaying, setIsPlaying] = useState(false);
     
-    console.log(runTimeInMinutes, breakTimeInSeconds, isPlaying);
+    console.log(runTimeInMinutes, breakTimeInSeconds, alarmSound, isPlaying);
+
+    const onChangeValue = (event) => {
+      setAlarmSound(event.target.value);
+      console.log(event.target.value);
+    }
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      setIsPlaying(true);
+    }
 
     const handleReset = (event) => {
-        setRunTimeInMinutes(20);
-        setBreakTimeInSeconds(20);
-        setKey(prevKey => prevKey + 1);
-        setIsPlaying(false);
+      event.preventDefault();
+      setRunTimeInMinutes(20);
+      setBreakTimeInSeconds(20);
+      setKey(prevKey => prevKey + 1);
+      setAlarmSound(windchimesSound);
+      setIsPlaying(false);
     }
 
     const renderTime = ({ remainingTime }) => {
     function playSoundEffect() {
-        new Audio(windchimesSound).play()
+      console.log(alarmSound);
+        new Audio(alarmSound).play()
     }
 
     if (remainingTime === 0) {
@@ -61,15 +77,22 @@ function Demo() {
                 {renderTime}
                 </CountdownCircleTimer>
             </div>
-            <div className="timer-settings">
+            <form>
                 <p>Set timer here:</p>
                 <label htmlFor="run-time">Run time (minutes)</label>
                 <input value={runTimeInMinutes} onChange={event => setRunTimeInMinutes(event.target.value)} name="run-time" type="number" required></input>
                 <label htmlFor="break-time">Break time (seconds)</label>
                 <input value={breakTimeInSeconds} onChange={event => setBreakTimeInSeconds(event.target.value)} name="break-time" type="number" required></input>
-            </div>
-            <button type="submit" onClick={event => setIsPlaying(true)}>Start timer</button>
-            <button onClick={handleReset}>Reset</button>
+                <label>
+                Choose your alarm sound:
+                <select value={alarmSound} onChange={onChangeValue}>
+                  <option value={windchimesSound}>Wind chimes</option>
+                  <option value={cheeringCrowdSound}>Cheering crowd</option>
+                </select>
+                </label>
+                <button type="submit" onClick={handleSubmit}>Start timer</button>
+                <button onClick={handleReset}>Reset</button>
+            </form>
         </div>
     );
 }
