@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
-import eyeAnimation from "../assets/eye-animation.mp4";
+import eyeAnimationSideToSide from "../assets/eye-animation-side-to-side.gif";
+import eyeAnimationLookingUp from "../assets/eye-animation-looking-up.gif";
 import windchimesSound from "../assets/windchimes.mp3";
 
 function Demo() {
@@ -27,15 +28,14 @@ function Demo() {
     if (remainingTime === 0) {
         playSoundEffect();
         return <div className="timer">
-                    <p>Look at something far away!</p>
+                  <img src={eyeAnimationLookingUp} alt="pair of eyes looking up"></img>
+                  <p>Look at something far away!</p>
                 </div>;
     }
 
     return (
         <div className="timer">
-            <video controls autoPlay loop muted width="100px">
-                <source src={eyeAnimation} type="video/mp4"></source>
-            </video>
+          <img src={eyeAnimationSideToSide} alt="pair of eyes looking side to side"></img>
         </div>
     );
 };
