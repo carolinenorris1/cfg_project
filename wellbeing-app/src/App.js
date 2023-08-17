@@ -32,25 +32,33 @@ function App() {
           <h4>Ruth</h4>
           <li>My favourite hobbies are working out, baking, and reading.</li>
           <li>
-            These hobbies keep me healthy, sane, and learning. I love a balance 
-            of things which stop me thinking, and get me out of my head & into 
+            These hobbies keep me healthy, sane, and learning. I love a balance
+            of things which stop me thinking, and get me out of my head & into
             my body, and activities which get me thinking more.
           </li>
         </p>
         <p>
           <h4>Roinee</h4>
-          <li>My favourite hobbies are reading and scrolling through Pinterest</li>
           <li>
-            Reading allows me to escape into wonderful worlds with all kinds of perils and fun.
-            Scrolling through Pinterest allows me to think about new ideas and fid new books to read.
+            My favourite hobbies are reading and scrolling through Pinterest
+          </li>
+
+          <li>
+            Reading allows me to escape into wonderful worlds with all kinds of
+            perils and fun. Scrolling through Pinterest allows me to think about
+            new ideas and fid new books to read.
           </li>
         </p>
         <p>
           <h4>Mariam</h4>
-          <li>My favourite hobbies are doing puzzles, DIY-ing, driving and going to the theatre.</li>
           <li>
-            I feel these hobbies help stimulate all parts of my personality and mind;
-            they allow me to create, travel, connect with people and my inner self.
+            My favourite hobbies are doing puzzles, DIY-ing, driving and going
+            to the theatre.
+          </li>
+          <li>
+            I feel these hobbies help stimulate all parts of my personality and
+            mind; they allow me to create, travel, connect with people and my
+            inner self.
           </li>
         </p>
       </header>
