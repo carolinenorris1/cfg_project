@@ -13,7 +13,7 @@ function Home() {
         <img></img>
       </div>
       <div>
-        <h1>main tag line</h1>
+        <h1>App for Eye Health</h1>
       </div>
       <div>
         <h2>a few lines describing the app</h2>
