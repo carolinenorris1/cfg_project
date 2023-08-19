@@ -1,104 +1,66 @@
-import styles from "../globalStyles.module.css";
-import MusicPlayer from "../MusicPlayer";
-import React, { useState } from "react";
-import { CountdownCircleTimer } from "react-countdown-circle-timer";
-import eyeAnimationSideToSide from "../assets/eye-animation-side-to-side.gif";
-import eyeAnimationLookingUp from "../assets/eye-animation-looking-up.gif";
-import windchimesSound from "../assets/windchimes.mp3";
-import cheeringCrowdSound from "../assets/cheering-crowd.mp3";
+import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import InternalMusicPlayer from '../carousel/MusicPlayer/InternalMusicPlayer';
+import Timer from '../carousel/Timer/Timer';
 
+function WellnessApp() {
+  return (
+    <div>
+      <h1>WellnessApp content</h1>
 
-function Demo() {
-  
-    const [key, setKey] = useState(0);
-    const [runTimeInMinutes, setRunTimeInMinutes] = useState(20);
-    const [breakTimeInSeconds, setBreakTimeInSeconds] = useState(20);
-    const [alarmSound, setAlarmSound] = useState(windchimesSound);
-    const [isPlaying, setIsPlaying] = useState(false);
-    
-    console.log(runTimeInMinutes, breakTimeInSeconds, alarmSound, isPlaying);
-
-    const onChangeValue = (event) => {
-      setAlarmSound(event.target.value);
-      console.log(event.target.value);
-    }
-
-    const handleSubmit = (event) => {
-      event.preventDefault();
-      setIsPlaying(true);
-    }
-
-    const handleReset = (event) => {
-      event.preventDefault();
-      setRunTimeInMinutes(20);
-      setBreakTimeInSeconds(20);
-      setKey(prevKey => prevKey + 1);
-      setAlarmSound(windchimesSound);
-      setIsPlaying(false);
-    }
-
-    const renderTime = ({ remainingTime }) => {
-    function playSoundEffect() {
-      console.log(alarmSound);
-        new Audio(alarmSound).play()
-    }
-
-    if (remainingTime === 0) {
-        playSoundEffect();
-        return <div className="timer">
-                  <img src={eyeAnimationLookingUp} alt="pair of eyes looking up"></img>
-                  <p>Look at something far away!</p>
-                </div>;
-    }
-
-    return (
-        <div className="timer">
-          <img src={eyeAnimationSideToSide} alt="pair of eyes looking side to side"></img>
+      {/* Dynamic Carousel */}
+      <Carousel infiniteLoop={true}>
+        {/* Slide 1 - Music Player */}
+        <div>
+          <h2>Music Player</h2>
+          <InternalMusicPlayer />
         </div>
-    );
-};
-
-    return (
-       
-
-        <div className="App">
-          <MusicPlayer/>
-            <h1>Set screen break reminders</h1>
-            <h4>Take frequent breaks from your screen. Your eyes can become tired when you use them for long periods.
-                Taking frequent breaks from the screen can help to avoid tired eyes and headaches.</h4>
-            <h4>The 20, 20, 20 rule suggests taking a break of at least 20 seconds, every 20 minutes and to look at least 20 feet away.</h4>
-            <p>insert YouTube video link here</p>
-            <div className="timer-wrapper">
-                <CountdownCircleTimer
-                isPlaying={isPlaying}
-                duration={runTimeInMinutes * 60}
-                key={key}
-                size={350}
-                colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
-                colorsTime={[10, 6, 3, 0]}
-                onComplete={() => [true, {breakTimeInSeconds}]}
-                >       
-                {renderTime}
-                </CountdownCircleTimer>
-            </div>
-            <form>
-                <p>Set timer here:</p>
-                <label htmlFor="run-time">Run time (minutes)</label>
-                <input value={runTimeInMinutes} onChange={event => setRunTimeInMinutes(event.target.value)} name="run-time" type="number" required></input>
-                <label htmlFor="break-time">Break time (seconds)</label>
-                <input value={breakTimeInSeconds} onChange={event => setBreakTimeInSeconds(event.target.value)} name="break-time" type="number" required></input>
-                <label>
-                Choose your alarm sound:
-                <select value={alarmSound} onChange={onChangeValue}>
-                  <option value={windchimesSound}>Wind chimes</option>
-                  <option value={cheeringCrowdSound}>Cheering crowd</option>
-                </select>
-                </label>
-                <button type="submit" onClick={handleSubmit}>Start timer</button>
-                <button onClick={handleReset}>Reset</button>
-            </form>
+        {/* Slide 2 - Spotify Player */}
+        <div>
+          <h3>Spotify Player</h3>
+          <iframe
+            style={{ borderRadius: "12px" }}
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1EIhnGUyOEDCHI?utm_source=generator"
+            width="100%"
+            height="675"
+            frameBorder="0"
+            allowFullScreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
         </div>
-    );
+        {/* Slide 3 - YouTube Video */}
+        <div>
+          <h3>YouTube Video</h3>
+          <iframe
+            width="500"
+            height="675"
+            src="https://www.youtube.com/embed/hzUStg_pGBE"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+        {/* Slide 4 - Timer */}
+        <div>
+          <h4>Timer</h4>
+          <Timer />
+        </div>
+        {/* Slide 5 (Static) */}
+        <div>
+          <h3>LOCKED CONTENT 1</h3>
+          {/* Add content for static component 5 */}
+        </div>
+        {/* Slide 6 (Static) */}
+        <div>
+          <h3>LOCKED CONTENT 2</h3>
+          {/* Add content for static component 6 */}
+        </div>
+      </Carousel>
+    </div>
+  );
 }
-console.log(CountdownCircleTimer.props)
-export default Demo;
+
+export default WellnessApp;

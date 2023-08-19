@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPlay , faPause,faForward,faBackward } from '@fortawesome/free-solid-svg-icons';
 
 
-function PlayerControls(props) {
+function InternalPlayerControls(props) {
   return (
     <div className="c-player--controls">
         <button className= "skip-btn" onClick={() => props.SkipSong(false)}>
@@ -19,4 +19,4 @@ function PlayerControls(props) {
   )
 }  
 
-export default PlayerControls;
+export default InternalPlayerControls;

@@ -19,7 +19,7 @@ function Community() {
         <h2>Testimonials</h2>
         <p>"This app changed by life. I've been working from home since Covid and am on my computer all day. I'd been getting eye strain, and had read about the 20x20x20 rule, but would always get so absorbed in my work that I'd forget to look away from the screen. Then someone told me about UnHook. The gentle reminders are all I need, and it's fantastic just to be able to relax & focus on my work without having to worry about ruining my eyes. I recommend you to everyone!"</p>
         <p>A testimonial from each of us - Katharine</p>
-        <p>A testimonial from each of us - Mariam</p>
+        <p>"It's easy to get carried away when you are working away on a computer, the app really helped me take care of myself and set timers for when I was likely to forget. The inbuilt features mean I don't have to have a ton on tabs open. All in all, a very useful app that helps me declutter and stay focused."</p>
         <p>A testimonial from each of us - Aneta</p>
         <p>A testimonial from each of us - Caroline</p>
         <p>A testimonial from each of us - Roinee</p>
