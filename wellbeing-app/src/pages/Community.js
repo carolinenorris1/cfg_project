@@ -3,7 +3,53 @@
 function Community() {
   return (
     <div>
-      <h1>Community content</h1>
+      <div>
+        <h1>Join our community</h1>
+      </div>
+      {/* left side of the screen */}
+      <div>
+        {/* FAQ will go here, Katharine will write them */}
+        <h2>FAQ</h2>
+        <p>Question 1</p>
+        <p>Question 2</p>
+        <p>Question 3</p>
+        <p>Question 4</p>
+      </div>
+      <div>
+        <h2>Testimonials</h2>
+        <p>"This app changed by life. I've been working from home since Covid and am on my computer all day. I'd been getting eye strain, and had read about the 20x20x20 rule, but would always get so absorbed in my work that I'd forget to look away from the screen. Then someone told me about UnHook. The gentle reminders are all I need, and it's fantastic just to be able to relax & focus on my work without having to worry about ruining my eyes. I recommend you to everyone!"</p>
+        <p>A testimonial from each of us - Katharine</p>
+        <p>A testimonial from each of us - Mariam</p>
+        <p>A testimonial from each of us - Aneta</p>
+        <p>A testimonial from each of us - Caroline</p>
+        <p>A testimonial from each of us - Roinee</p>
+      </div>
+      <div>
+        {/* right side of the screen */}
+        {/* 3 images are for 3 icons with link to Facebook, Twitter and Instagram */}
+        <img></img>
+        <img></img>
+        <img></img>
+      </div>
+      <div>
+        {/*Community div, images for a few images of people in a cafe etc. and a few lines of description*/}
+        <img></img>
+        <img></img>
+        <img></img>
+        <p>Description for the community - Katharine</p>
+      </div>
+      <div>
+        {/* Icons for downloading stuff like Apple store and Google Play */}
+        <img></img>
+        <img></img>
+      </div>
+      <div>
+        <button>Convinced?</button>
+        <p>Sign up, become a member</p>
+        <p>
+          Or <b>login</b> here 👉
+        </p>
+      </div>
     </div>
   );
 }

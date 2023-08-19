@@ -4,6 +4,8 @@ import ReactDOM from "react-dom/client";
 // import App from './App'; this is the old page for HW
 import MainPage from "./MainPage"; /* this is the project MainPage */
 import styles from "./globalStyles.module.css";
+import './music-index.css';
+
 
 import reportWebVitals from "./reportWebVitals";
 

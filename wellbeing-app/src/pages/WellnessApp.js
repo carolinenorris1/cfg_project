@@ -1,3 +1,5 @@
+import styles from "../globalStyles.module.css";
+import MusicPlayer from "../MusicPlayer";
 import React, { useState } from "react";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import eyeAnimationSideToSide from "../assets/eye-animation-side-to-side.gif";
