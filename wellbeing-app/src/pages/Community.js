@@ -17,7 +17,7 @@ function Community() {
       </div>
       <div>
         <h2>Testimonials</h2>
-        <p>A testimonial from each of us - Ruth</p>
+        <p>"This app changed by life. I've been working from home since Covid and am on my computer all day. I'd been getting eye strain, and had read about the 20x20x20 rule, but would always get so absorbed in my work that I'd forget to look away from the screen. Then someone told me about UnHook. The gentle reminders are all I need, and it's fantastic just to be able to relax & focus on my work without having to worry about ruining my eyes. I recommend you to everyone!"</p>
         <p>A testimonial from each of us - Katharine</p>
         <p>A testimonial from each of us - Mariam</p>
         <p>A testimonial from each of us - Aneta</p>

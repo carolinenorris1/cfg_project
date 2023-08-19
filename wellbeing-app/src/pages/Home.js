@@ -13,21 +13,27 @@ function Home() {
         <img></img>
       </div>
       <div>
-        <h1>App for Eye Health</h1>
+        <h1>Time to UnHook</h1>
       </div>
       <div>
-        <h2>a few lines describing the app</h2>
+        <h2>We see you. 
+          Tip tapping on that keyboard all day. 
+          Peering into the abyss.
+          We both now that all that screen time isn't good for you.
+          Eye strain,
+          Neck pain,
+          Carpal tunnel,
+          What if we could take it all away?  </h2>
         <img></img>
-        <button>Take a look 👉</button>
+        <button>Check it out 👉</button>
       </div>
       <div>
         <h2>Our Mission</h2>
         <p>
-          <ui>Bullet point 1</ui>
-          <ui>Bullet point 2</ui>
-          <ui>Bullet point 3</ui>
-          <ui>Bullet point 4</ui>
-          <ui>Bullet point 5</ui>
+          <ui>to remind you when to give yourself, and your eyes, a little break (because we know you forget)</ui>
+          <ui>to stop working from home being so painful (literally) </ui>
+          <ui>to help you be the healthiest & most productive version of yourself </ui>
+          <ui>to smile at strangers (because it's nice)</ui>
         </p>
         <button>Let us help</button>
       </div>
