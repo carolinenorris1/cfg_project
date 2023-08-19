@@ -9,7 +9,7 @@ import cheeringCrowdSound from "../assets/cheering-crowd.mp3";
 
 
 function Demo() {
-    
+    return <MusicPlayer />;
     const [key, setKey] = useState(0);
     const [runTimeInMinutes, setRunTimeInMinutes] = useState(20);
     const [breakTimeInSeconds, setBreakTimeInSeconds] = useState(20);
