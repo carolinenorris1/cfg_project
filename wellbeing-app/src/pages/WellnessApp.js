@@ -9,7 +9,7 @@ import cheeringCrowdSound from "../assets/cheering-crowd.mp3";
 
 
 function Demo() {
-    
+  
     const [key, setKey] = useState(0);
     const [runTimeInMinutes, setRunTimeInMinutes] = useState(20);
     const [breakTimeInSeconds, setBreakTimeInSeconds] = useState(20);
@@ -59,8 +59,10 @@ function Demo() {
 };
 
     return (
+       
 
         <div className="App">
+          <MusicPlayer/>
             <h1>Set screen break reminders</h1>
             <h4>Take frequent breaks from your screen. Your eyes can become tired when you use them for long periods.
                 Taking frequent breaks from the screen can help to avoid tired eyes and headaches.</h4>
