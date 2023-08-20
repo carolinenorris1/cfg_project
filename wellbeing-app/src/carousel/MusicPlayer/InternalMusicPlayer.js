@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import Player from './music-components/Player';
+import InternalPlayer from './InternalPlayer';
 
-
-function MusicPlayer() {
+function InternalMusicPlayer() {
   const [songs] = useState ([
   {
     title: "Forget me too ft. Halsey",
@@ -46,7 +45,7 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <Player 
+      <InternalPlayer 
         currentSongIndex={currentSongIndex}
         setCurrentSongIndex={setCurrentSongIndex}
         nextSongIndex={nextSongIndex}
@@ -56,7 +55,7 @@ useEffect(() => {
   );
 }
 
-export default MusicPlayer;
+export default InternalMusicPlayer;
 
 // npm i --save @fortawesome/fontawesome-svg-core
 // npm install --save @fortawesome/free-solid-svg-icons

@@ -1,3 +1,12 @@
+.player-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +32,7 @@
     border-radius: 16px;
     box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
     width: 600px;
-    height: 700px;
+    height: 650px;
   }
   
   .c-player > h4{
@@ -105,3 +114,5 @@
     color: #888;
     font-size: 18px;
   } 
+
+ 
