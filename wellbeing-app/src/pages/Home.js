@@ -10,7 +10,11 @@ function Home() {
   return (
     <div>
       <div>
-        <img></img>
+        <img src = "images\home-images\vectoruser-icon.png"></img>
+      </div>
+      <div>
+      <img src = "images\home-images\hero.jpg" 
+      alt = "Photograph of woman sitting on a bench outside, working on a laptop."></img>
       </div>
       <div>
         <h1>Time to UnHook</h1>
@@ -19,12 +23,12 @@ function Home() {
         <h2>We see you. 
           Tip tapping on that keyboard all day. 
           Peering into the abyss.
-          We both now that all that screen time isn't good for you.
+          We both know that all that screen time isn't good for you.
           Eye strain,
           Neck pain,
           Carpal tunnel,
-          What if we could take it all away?  </h2>
-        <img></img>
+          What if we could take it all away?</h2>
+        {/* <img>This will need to be a screenshot of the eye timer app when finished</img> */}
         <button>Check it out 👉</button>
       </div>
       <div>

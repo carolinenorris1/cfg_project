@@ -17,8 +17,9 @@ function Community() {
       </div>
       <div>
         <h2>Testimonials</h2>
-        <p>"This app changed by life. I've been working from home since Covid and am on my computer all day. I'd been getting eye strain, and had read about the 20x20x20 rule, but would always get so absorbed in my work that I'd forget to look away from the screen. Then someone told me about UnHook. The gentle reminders are all I need, and it's fantastic just to be able to relax & focus on my work without having to worry about ruining my eyes. I recommend you to everyone!"</p>
-        <p>A testimonial from each of us - Katharine</p>
+        <p>"This app changed my life. I've been working from home since Covid and am on my computer all day. I'd been getting eye strain, and had read about the 20x20x20 rule, but would always get so absorbed in my work that I'd forget to look away from the screen. Then someone told me about UnHook. The gentle reminders are all I need, and it's fantastic just to be able to relax & focus on my work without having to worry about ruining my eyes. I recommend you to everyone!"</p>
+        <p>"After moving to hybrid working I was beginning to get back ache from sitting hunched over my laptop all day. This app has been so helpful with reminders and great advice about how to set up my working environment- Katharine"</p>
+        <p>A testimonial from each of us - Mariam</p>
         <p>"It's easy to get carried away when you are working away on a computer, the app really helped me take care of myself and set timers for when I was likely to forget. The inbuilt features mean I don't have to have a ton on tabs open. All in all, a very useful app that helps me declutter and stay focused."</p>
         <p>A testimonial from each of us - Aneta</p>
         <p>A testimonial from each of us - Caroline</p>
@@ -27,21 +28,21 @@ function Community() {
       <div>
         {/* right side of the screen */}
         {/* 3 images are for 3 icons with link to Facebook, Twitter and Instagram */}
-        <img></img>
-        <img></img>
-        <img></img>
+        <img src = "images\community-images\Vectorfacebook.png"></img>
+        <img src = "images\community-images\Vectortwitter.png"></img>
+        <img src = "images\community-images\Vectorinstagram.png"></img>
       </div>
       <div>
         {/*Community div, images for a few images of people in a cafe etc. and a few lines of description*/}
-        <img></img>
-        <img></img>
-        <img></img>
+        <img src = "images\community-images\festival-1.jpg"></img>
+        <img src = "images\community-images\map.png"></img>
+        <img src = "images\community-images\meal-2.jpg"></img>
         <p>Description for the community - Katharine</p>
       </div>
       <div>
         {/* Icons for downloading stuff like Apple store and Google Play */}
-        <img></img>
-        <img></img>
+        <img src = "images\community-images\Vectorplay-store.png"></img>
+        <img src = "images\community-images\Vectorapple.png"></img>
       </div>
       <div>
         <button>Convinced?</button>
