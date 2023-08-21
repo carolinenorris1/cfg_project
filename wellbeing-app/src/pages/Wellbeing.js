@@ -3,39 +3,15 @@ Ruth - texts - please add descriptions so we can proceed with finding images.
 Or if you want to pick some specific images we'll use unsplash.
 */
 
-import React, { useState, useEffect } from "react";
-import fetchQuote from '../carousel/Quotes/QuotesAPI';
+import React from "react";
 import styles from "../globalStyles.module.css";
 
 
 
 function Wellbeing() {
-  const [quote, setQuote] = useState("");
-  const [author, setAuthor] = useState("");
-
-  useEffect(() => {
-    fetchQuoteData();
-  }, []);
-
-  const fetchQuoteData = async () => {
-    const result = await fetchQuote();
-    if (result) {
-      setQuote(result.content);
-      setAuthor(result.originator.name);
-    }
-  };
 
   return (
     <div>
-      {/* Display the fetched quote at the top */}
-      <div>
-        <h2>Quote of the Day</h2>
-        <div className="quoteContainer">
-          <p id="quote">{quote}</p>
-          <p id="author">— {author}</p>
-        </div>
-      </div>
-
       <div>
         <h1>How we can help and why it matters.</h1>
       </div>
