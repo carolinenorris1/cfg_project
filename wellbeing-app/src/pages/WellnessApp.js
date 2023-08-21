@@ -1,8 +1,9 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import InternalMusicPlayer from '../carousel/MusicPlayer/InternalMusicPlayer';
-import Timer from '../carousel/Timer/Timer';
+import InternalMusicPlayer from "../carousel/MusicPlayer/InternalMusicPlayer";
+import Quotes from "../carousel/Quotes/Quotes";
+import Timer from "../carousel/Timer/Timer";
 
 function WellnessApp() {
   return (
@@ -50,10 +51,10 @@ function WellnessApp() {
         </div>
         {/* Slide 5 (Static) */}
         <div>
-          <h3>LOCKED CONTENT 1</h3>
-          {/* Add content for static component 5 */}
+          <h2>Looking for some inspiration?</h2>
+          <h4>Daily quotes, here when you need them.</h4>
+          <Quotes />
         </div>
-        {/* Slide 6 (Static) */}
         <div>
           <h3>LOCKED CONTENT 2</h3>
           {/* Add content for static component 6 */}
