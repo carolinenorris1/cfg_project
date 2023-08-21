@@ -8,12 +8,15 @@ function Community() {
       </div>
       {/* left side of the screen */}
       <div>
-        {/* FAQ will go here, Katharine will write them */}
         <h2>FAQ</h2>
-        <p>Question 1</p>
-        <p>Question 2</p>
-        <p>Question 3</p>
-        <p>Question 4</p>
+        <p><strong>Will you be adding additional features to the app? </strong> 
+        <i>Definitely! As the app develops, more...</i></p>
+        <p><strong>Do I really need to download the app? </strong> 
+        <i>No! if you're working well after reading some or our...</i></p>
+        <p><strong>I have an auditory impairment, can I still use the app? </strong> 
+        <i>Yes! The app has an audible alarm but also includes...</i></p>
+        <p><strong>There aren't many people in my area, will this change? </strong> 
+        <i>More people join us every day! In the meantime, why not...</i></p>
       </div>
       <div>
         <h2>Testimonials</h2>
@@ -37,7 +40,10 @@ function Community() {
         <img src = "images\community-images\festival-1.jpg"></img>
         <img src = "images\community-images\map.png"></img>
         <img src = "images\community-images\meal-2.jpg"></img>
-        <p>Description for the community - Katharine</p>
+        <p>Working from home, or a home-from-home anywhere in the world, can be great, but it can also lead to feelings of isolation, loneliness and stress.
+          Here at UnHook, we believe home working should work for everyone, that's why our members' community hub is full of the latest and greatest events near you.
+          Find out what your fellow homeworkers are up to and definitely make plans to get out there this weekend...
+        </p>
       </div>
       <div>
         {/* Icons for downloading stuff like Apple store and Google Play */}
