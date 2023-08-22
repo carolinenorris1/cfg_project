@@ -1,9 +1,10 @@
 import React, { useContext, useState } from "react";
-import styles from "../globalStyles.module.css";
+import "../css/globalStyles.css";
 import CountryContext from "../context/CountryContext";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
+
 
 function Header({ setSelectedPage }) {
   const context = useContext(CountryContext);
@@ -21,12 +22,14 @@ function Header({ setSelectedPage }) {
   };
 
   return (
-    <div className={styles["header-container"]}>
-      <div>
-        Logo
-        {/* logo - image */}
+    <div className={"header-container"}>
+      <div className={"logo"}>
+        <h1>LOGO</h1>
+        {/* place for the logo - image */}
       </div>
-      <div className={styles["header-menu"]}>
+
+      <div className={"header-menu"}>
+        <div></div>
         <button onClick={() => setSelectedPage("home")}>Home</button>
         <button onClick={() => setSelectedPage("wellnessApp")}>
           WellnessApp
@@ -65,6 +68,11 @@ function Header({ setSelectedPage }) {
             </Modal.Footer>
           </Form>
         </Modal>
+      <div className={"user-icon-container"}>
+        <img
+          src="images\home-images\vectoruser-icon.png"
+          className={"user-icon"}
+        ></img>
       </div>
     </div>
   );
