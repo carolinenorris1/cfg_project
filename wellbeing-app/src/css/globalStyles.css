@@ -62,7 +62,7 @@ Paragraph text:
   display: flex;
   justify-content: space-around;
   width: 60rem;
-  padding-right: 5rem;
+  padding-right: 12vh;
 }
 
 .header-menu button {
@@ -79,6 +79,7 @@ Paragraph text:
 
 .user-icon-container {
   position: absolute;
+  margin-right: 4vh;
   right: 0;
   top: -0.1;
   background-color: #f5fff2;
