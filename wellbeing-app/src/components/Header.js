@@ -5,7 +5,8 @@ function Header({ setSelectedPage }) {
   return (
     <div className={"header-container"}>
       <div className={"logo"}>
-        <h1>LOGO</h1>
+        {/* <h1>LOGO</h1> */}
+        <img src = "images\logo\logo2.png"></img>
         {/* place for the logo - image */}
       </div>
 

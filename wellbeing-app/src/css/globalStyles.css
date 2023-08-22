@@ -51,7 +51,7 @@ Paragraph text:
 
 .logo {
   margin: 0 0 0 7rem;
-  color: #4c574a;
+  /* color: #4c574a; */
 }
 
 .header-menu {
@@ -142,7 +142,7 @@ Paragraph text:
 
 .main-page-right-container {
   position: relative;
-  border: 1px solid black;
+  border: 1px solid #6E8A67;
   border-radius: 20px;
   padding: 0 1.5rem 5rem 1.5rem;
   width: 70rem;
@@ -173,4 +173,9 @@ Paragraph text:
 .main-page-txt-container button:hover {
   color: #f5fff2;
   background-color: #8a5a7e;
+}
+
+.eye-thumbnail {
+  position : relative;
+  object-fit: scale-down;
 }
