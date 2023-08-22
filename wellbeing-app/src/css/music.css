@@ -1,21 +1,13 @@
-.player-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-/* * {
-  margin: 0;
+/* * { */
+/* margin: 0;
   padding: 0;
   box-sizing: border-box; */
-/* font-family: 'Fira Sans',sans-serif; */
+/* font-family: "Fira Sans", sans-serif; */
 /* } */
 
 /* body {
-    background-color: #ddd;
-  } */
+  background-color: #ddd;
+} */
 
 .MusicPlayer {
   display: flex;
@@ -32,7 +24,7 @@
   box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
     inset 6px 6px 12px rgba(255, 255, 255, 0.4);
   width: 600px;
-  height: 650px;
+  height: 700px;
 }
 
 .c-player > h4 {

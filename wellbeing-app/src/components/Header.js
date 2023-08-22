@@ -1,14 +1,16 @@
 import React from "react";
-import styles from "../globalStyles.module.css";
+import "../css/globalStyles.css";
 
 function Header({ setSelectedPage }) {
   return (
-    <div className={styles["header-container"]}>
-      <div>
-        Logo
-        {/* logo - image */}
+    <div className={"header-container"}>
+      <div className={"logo"}>
+        <h1>LOGO</h1>
+        {/* place for the logo - image */}
       </div>
-      <div className={styles["header-menu"]}>
+
+      <div className={"header-menu"}>
+        <div></div>
         <button onClick={() => setSelectedPage("home")}>Home</button>
         <button onClick={() => setSelectedPage("wellnessApp")}>
           WellnessApp
@@ -16,7 +18,12 @@ function Header({ setSelectedPage }) {
         <button onClick={() => setSelectedPage("wellbeing")}>Wellbeing</button>
         <button onClick={() => setSelectedPage("community")}>Community</button>
       </div>
-      <div>{/* image for user */}</div>
+      <div className={"user-icon-container"}>
+        <img
+          src="images\home-images\vectoruser-icon.png"
+          className={"user-icon"}
+        ></img>
+      </div>
     </div>
   );
 }

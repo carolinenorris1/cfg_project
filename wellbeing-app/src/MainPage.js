@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../src/globalStyles.module.css";
+import styles from "../src/css/globalStyles.css";
 import Header from "./components/Header";
 import Home from "../src/pages/Home";
 import Wellbeing from "../src/pages/Wellbeing";
