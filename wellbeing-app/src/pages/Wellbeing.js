@@ -17,49 +17,49 @@ function Wellbeing() {
         <div>
           <img
             src="images\wellbeing-images\joints-2.jpg"
-            alt="computer screen with do-more slogan"
+            alt="image of hand on computer mouse"
           ></img>
           <p>Your joint health</p>
         </div>
         <div>
           <img
             src="images\wellbeing-images\exercise-3.jpg"
-            alt="computer screen with do-more slogan"
+            alt="people participating in a yoga class"
           ></img>
-          <p>Exercixe anywhere</p>
+          <p>Exercize anywhere</p>
         </div>
         <div>
           <img
             src="images\wellbeing-images\breathe-4.jpg"
-            alt="computer screen with do-more slogan"
+            alt="Neon sign reading breath against foliage"
           ></img>
           <p>Breathe...</p>
         </div>
         <div>
           <img
             src="images\wellbeing-images\not-ok-5.jpg"
-            alt="computer screen with do-more slogan"
+            alt="image of very sad looking dog"
           ></img>
           <p>It's ok to not be ok</p>
         </div>
         <div>
           <img
             src="images\wellbeing-images\link-up-6.jpg"
-            alt="computer screen with do-more slogan"
+            alt="image of coffee mugs in cafe"
           ></img>
           <p>Link up</p>
         </div>
         <div>
           <img
             src="images\wellbeing-images\healthy-food-7.jpg"
-            alt="computer screen with do-more slogan"
+            alt="image of healthy breakfast quick oats"
           ></img>
           <p>Healthy eating</p>
         </div>
         <div>
           <img
             src="images\wellbeing-images\limits-8.jpg"
-            alt="computer screen with do-more slogan"
+            alt="image of large stacks of paper"
           ></img>
           <p>Setting limits</p>
         </div>
