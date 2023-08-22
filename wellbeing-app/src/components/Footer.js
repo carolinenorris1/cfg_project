@@ -1,9 +1,11 @@
-import styles from "../globalStyles.module.css";
+import React from "react";
+import "../css/globalStyles.css";
 
 function Footer() {
   return (
-    <div className={styles["footer-container"]}>
-      <p>Designed by Group 4</p>
+    <div className={"footer-container"}>
+      <p>UnHook©️ Designed by Group 4:</p>
+      <p>Mariam, Caroline, Aneta, Katharine, Ruth, Roinee</p>
     </div>
   );
 }

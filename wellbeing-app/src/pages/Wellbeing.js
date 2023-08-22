@@ -3,7 +3,7 @@ Ruth - texts - please add descriptions so we can proceed with finding images.
 Or if you want to pick some specific images we'll use unsplash.
 */
 
-import styles from "../globalStyles.module.css";
+import "../css/globalStyles.css";
 
 function Wellbeing() {
   return (
