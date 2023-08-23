@@ -23,11 +23,8 @@ function Header({ setSelectedPage }) {
   return (
     <div className={"header-container"}>
       <div className={"logo"}>
-        {/* <h1>LOGO</h1> */}
         <img src="images\logo\logo2.png"></img>
-        {/* place for the logo - image */}
       </div>
-
       <div className={"header-menu"}>
         <div></div>
         <button onClick={() => setSelectedPage("home")}>Home</button>
@@ -43,12 +40,10 @@ function Header({ setSelectedPage }) {
           className={"user-icon"}
         ></img>
       </div>
-
       <div className={"country-modal"}>
         <Button variant="primary" onClick={handleShow}>
           {country}
         </Button>
-
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>
