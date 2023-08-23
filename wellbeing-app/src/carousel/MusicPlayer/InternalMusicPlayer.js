@@ -4,28 +4,40 @@ import InternalPlayer from './InternalPlayer';
 function InternalMusicPlayer() {
   const [songs] = useState ([
   {
-    title: "Forget me too ft. Halsey",
+    title: "A Promise",
     artist: "Machine Gun Kelly",
-    img_src: "./images/song-1.jpg",
-    src: "./music/on-n-on.mp3"
+    img_src: "./images/song-1.jpeg",
+    src: "./music/a-promise.mp3"
   },
   {
-    title: "Song 22",
+    title: "Cat's Cradle",
     artist: "Artist 2",
-    img_src: "./images/song-2.jpg",
-    src: "./music/somebody-new.mp3"
+    img_src: "./images/song-4.jpeg",
+    src: "./music/Cats-Cradle.mp3"
   },
-  {
-    title: "Song 3",
+  { 
+    title: "Memories of Spring",
     artist: "Artist 3",
-    img_src: "./images/song-3.jpg",
-    src: "./music/on-n-on.mp3"
+    img_src: "./images/song-3.jpeg",
+    src: "./music/Memories-of-Spring.mp3"
+  },
+  { 
+    title: "Midnight Stroll",
+    artist: "Artist 4",
+    img_src: "./images/song-5.jpeg",
+    src: "./music/Midnight-Stroll-Lofi-Study-Music.mp3"
+  },
+  { 
+    title: "Otjanbird Pt II",
+    artist: "Artist 4",
+    img_src: "./images/song-6.jpeg",
+    src: "./music/Otjanbird-Pt.-II.mp3"
   },
   {
-    title: "Song 4",
+    title: "Sunset Landscape",
     artist: "Artist 4",
-    img_src: "./images/song-4.jpg",
-    src: "./music/somebody-new.mp3"
+    img_src: "./images/song-2.jpeg",
+    src: "./music/Sunset-Landscape.mp3"
   }
 ]);
 
