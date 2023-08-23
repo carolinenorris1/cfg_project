@@ -5,37 +5,37 @@ function InternalMusicPlayer() {
   const [songs] = useState ([
   {
     title: "A Promise",
-    artist: "Machine Gun Kelly",
+    artist: "Keys of Moon",
     img_src: "./images/song-1.jpeg",
     src: "./music/a-promise.mp3"
   },
   {
     title: "Cat's Cradle",
-    artist: "Artist 2",
+    artist: "Purrple Cat",
     img_src: "./images/song-4.jpeg",
     src: "./music/Cats-Cradle.mp3"
   },
   { 
     title: "Memories of Spring",
-    artist: "Artist 3",
+    artist: "Tokyo Music Walker",
     img_src: "./images/song-3.jpeg",
     src: "./music/Memories-of-Spring.mp3"
   },
   { 
     title: "Midnight Stroll",
-    artist: "Artist 4",
+    artist: "Ghostrifter Official",
     img_src: "./images/song-5.jpeg",
     src: "./music/Midnight-Stroll-Lofi-Study-Music.mp3"
   },
   { 
     title: "Otjanbird Pt II",
-    artist: "Artist 4",
+    artist: "Spheriá",
     img_src: "./images/song-6.jpeg",
     src: "./music/Otjanbird-Pt.-II.mp3"
   },
   {
     title: "Sunset Landscape",
-    artist: "Artist 4",
+    artist: "Keys of Moon",
     img_src: "./images/song-2.jpeg",
     src: "./music/Sunset-Landscape.mp3"
   }
