@@ -21,12 +21,14 @@ function Header({ setSelectedPage }) {
   };
 
   return (
-    <div>
-      <div className={"header-container"}>
-        <div className={"logo"}>
-          <h1>LOGO</h1>
-          {/* place for the logo - image */}
-        </div>
+
+    <div className={"header-container"}>
+      <div className={"logo"}>
+        {/* <h1>LOGO</h1> */}
+        <img src = "images\logo\logo2.png"></img>
+        {/* place for the logo - image */}
+      </div>
+
 
         <div className={"header-menu"}>
           <div></div>
