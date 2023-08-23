@@ -47,6 +47,7 @@ Paragraph text:
   justify-content: space-between;
   align-items: center;
   margin-top: 2vh;
+  z-index: 1;
 }
 
 .logo {
@@ -60,9 +61,11 @@ Paragraph text:
   border-radius: 25px 0 0 25px;
   height: 75px;
   display: flex;
-  justify-content: space-around;
-  width: 60rem;
-  padding-right: 12vh;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 7rem;
+  padding-left: 1rem;
+  overflow-x: auto;
 }
 
 .header-menu button {
@@ -70,6 +73,7 @@ Paragraph text:
   border-style: none;
   font-size: 4vh;
   font-weight: bold;
+  margin-right: 3rem;
 }
 
 .header-menu button:active,
@@ -79,7 +83,7 @@ Paragraph text:
 
 .user-icon-container {
   position: absolute;
-  margin-right: 4vh;
+  margin-right: 7vh;
   right: 0;
   top: -0.1;
   background-color: #f5fff2;
@@ -89,6 +93,13 @@ Paragraph text:
   height: 85px;
   border: 3px solid #4c574a;
   border-radius: 0 0 50px 50px;
+}
+
+.country-modal {
+  z-index: 1;
+  position: fixed; /* Use fixed positioning to keep it in view while scrolling */
+  top: 2rem;
+  right: 0;
 }
 
 .user-icon {
@@ -111,7 +122,6 @@ Paragraph text:
 /* HOME PAGE */
 .hero-image {
   position: relative;
-  z-index: -1;
   height: 80vh;
   width: 100%;
   object-fit: cover;
