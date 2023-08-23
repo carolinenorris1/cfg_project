@@ -1,25 +1,12 @@
-import React, { useContext, useState } from "react";
+import React from "react";
 import "../css/globalStyles.css";
 import CountryContext from "../context/CountryContext";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 
+
 function Header({ setSelectedPage }) {
-  const context = useContext(CountryContext);
-  const country = context.country;
-
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    context.setCountry(event.target.country.value);
-    handleClose();
-  };
-
   return (
     <div>
       <div className={"header-container"}>
@@ -27,7 +14,6 @@ function Header({ setSelectedPage }) {
           <h1>LOGO</h1>
           {/* place for the logo - image */}
         </div>
-
         <div className={"header-menu"}>
           <div></div>
           <button onClick={() => setSelectedPage("home")}>Home</button>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from "../src/css/globalStyles.css";
 import Header from "./components/Header";
 import Home from "../src/pages/Home";
@@ -8,8 +7,6 @@ import WellnessApp from "../src/pages/WellnessApp";
 import Community from "../src/pages/Community";
 import MainSection from "../src/components/MainSection";
 import Footer from "../src/components/Footer";
-import { CountryProvider } from "./context/CountryContext";
-
 
 function MainPage() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -31,11 +28,9 @@ function MainPage() {
 
   return (
     <div className={styles["main-page"]}>
-      <CountryProvider>
-        <Header setSelectedPage={setSelectedPage} />
-        <MainSection>{renderSelectedPage()}</MainSection>
-        <Footer setSelectedPage={setSelectedPage} />
-      </CountryProvider>
+      <Header setSelectedPage={setSelectedPage} />
+      <MainSection>{renderSelectedPage()}</MainSection>
+      <Footer setSelectedPage={setSelectedPage} />
     </div>
   );
 }
