@@ -8,6 +8,7 @@ import alarmClockSound from "./timer-sounds/mechanical-alarm-clock-trimmed.mp3";
 import pianoSound from "./timer-sounds/the-last-piano-trimmed.mp3";
 import motivationalMusicSound from "./timer-sounds/motivational-trimmed.mp3";
 import soothingMusicSound from "./timer-sounds/cottagecore-trimmed.mp3";
+import dingSound from "./timer-sounds/ding.mp3";
 
 function EyeTimer() {
   const [key, setKey] = useState(0);
@@ -48,6 +49,7 @@ function EyeTimer() {
 
     if (remainingTime === 0 && isPlaying) {
       playSoundEffect();
+      setTimeout(() => new Audio(dingSound).play(), breakTimeInSeconds * 1000);
       return (
         <div className="timer">
           <img src={eyeAnimationLookingUp} alt="pair of eyes looking up"></img>
