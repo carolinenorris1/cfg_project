@@ -27,62 +27,67 @@ function WellnessApp() {
 
   return (
     <div>
-      <h1>WellnessApp content</h1>
-
-      {/* Dynamic Carousel */}
-      <Carousel infiniteLoop={true}>
-        {/* Slide 1 - Music Player */}
-        <div>
-          <h2>Music Player</h2>
-          <InternalMusicPlayer />
-        </div>
-        {/* Slide 2 - Spotify Player */}
-        <div>
-          <h3>Spotify Player</h3>
-          <iframe 
-          //style="border-radius:12px" 
-          src="https://open.spotify.com/embed/playlist/5qQBuK3Q0iYlGmrjJCy6Ri?utm_source=generator" 
-          width="100%" 
-          height="675" 
-          frameBorder="0" 
-          allowfullscreen="" 
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-          loading="lazy"
-          ></iframe>
-        </div>
-        {/* Slide 3 - YouTube Video */}
-        <div>
-          <h3>YouTube Video</h3>
-          <iframe
-            width="500"
-            height="675"
-            src="https://www.youtube.com/embed/hzUStg_pGBE"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        </div>
-        {/* Slide 4 - Timer */}
-        <div>
-          <h4>Timer</h4>
-          <Timer />
-        </div>
-        {/* Slide 5 (Static) */}
-        <div>
-          <h2>Looking for some inspiration?</h2>
-          <h4>Daily quotes, here when you need them.</h4>
-          <Quotes />
-        </div>
-        <div>
-          <h3>Premium Content</h3>
-          <p>Want to discover even more great features?</p>
-          <p>
-            For just {getPremiumPrice(country)}, you can unlock even more tools
-            to help you UnHook.
-          </p>
-        </div>
-      </Carousel>
+      <div className={"carousel-container"}>
+        {/* Dynamic Carousel */}
+        <Carousel infiniteLoop={true}>
+          {/* Slide 1 - Music Player */}
+          <div className={"music-player"}>
+            <h1>Music Player</h1>
+            <InternalMusicPlayer />
+          </div>
+          {/* Slide 2 - Spotify Player */}
+          <div>
+            <h1>Spotify Player</h1>
+            <iframe
+              //style="border-radius:12px"
+              src="https://open.spotify.com/embed/playlist/5qQBuK3Q0iYlGmrjJCy6Ri?utm_source=generator"
+              width="100%"
+              height="675"
+              frameBorder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+          {/* Slide 3 - YouTube Video */}
+          <div>
+            <h1>YouTube Video</h1>
+            <iframe
+              width="500"
+              height="675"
+              src="https://www.youtube.com/embed/hzUStg_pGBE"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+          {/* Slide 4 - Timer */}
+          <div className={"timer"}>
+            <h1>Timer</h1>
+            <Timer />
+          </div>
+          {/* Slide 5 (Static) */}
+          <div className="quote">
+            <h1>Quote of the day</h1>
+            <div>
+              <p>Looking for some inspiration?</p>
+              <p>Daily quotes, here when you need them.</p>
+              <Quotes />
+            </div>
+          </div>
+          <div className="premium">
+            <h1>Premium Content</h1>
+            <div>
+              <p>Want to discover even more great features?</p>
+              <p>
+                For just <b>{getPremiumPrice(country)}</b>, you can unlock even
+                more tools to help you <b>UnHook</b>.
+              </p>
+            </div>
+          </div>
+        </Carousel>
+      </div>
     </div>
   );
 }
