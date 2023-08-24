@@ -108,7 +108,6 @@ function EyeTimer() {
             value={runTimeInMinutes}
             onChange={(event) => setRunTimeInMinutes(event.target.value)}
             name="run_time"
-            aria-label="run-time"
             type="number"
             required
           ></input>
@@ -117,7 +116,6 @@ function EyeTimer() {
             value={breakTimeInSeconds}
             onChange={(event) => setBreakTimeInSeconds(event.target.value)}
             name="break_time"
-            aria-label="break-time"
             type="number"
             required
           ></input>
