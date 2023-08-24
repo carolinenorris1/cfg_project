@@ -20,11 +20,9 @@ function Quotes() {
   return (
     // Display the fetched quote at the top
     <div>
-      <h2>Quote of the Day</h2>
-      <div className="quoteContainer">
-        <p id="quote">{quote}</p>
-        <p id="author">— {author}</p>
-      </div>
+      <p>Quote for today:</p>
+      <h2 id="quote">{quote}</h2>
+      <p id="author">— {author}</p>
     </div>
   );
 }

@@ -2,9 +2,9 @@ import "../css/globalStyles.css";
 
 function Wellbeing() {
   return (
-    <div>
+    <div className={"wellbeing-container"}>
       <div className={"wellbeing-motto"}>
-        <h1>How we can help and why it matters.</h1>
+        <p>How we can help and why it matters.</p>
       </div>
       <div className={"wellbeing-gallery-container"}>
         <div>

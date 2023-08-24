@@ -25,6 +25,7 @@
 }
 
 .c-player {
+  /* margin-left: 17rem; */
   display: block;
   background-color: #311331;
   padding: 50px;

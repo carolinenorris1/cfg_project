@@ -10,23 +10,23 @@ function Home() {
       ></img>
 
       <div className={"slogan"}>
-        <h1>Time to UnHook</h1>
+        <p>Time to UnHook</p>
       </div>
       <div className={"main-page-txt-container"}>
-      {/* <div className = {"eye-thumbnail"}>
+        {/* <div className = {"eye-thumbnail"}>
       <img src = "images\home-images\Eye-timer.png"></img>
       </div> */}
         <div className={"main-page-left-container"}>
           <p>
-            We see you. <i>Tip tapping</i> on that keyboard all day. <br></br>Peering into the
-            abyss.<br></br> We both know that all that screen time isn't good for you:
-            eye strain, neck pain, Carpal tunnel...<br></br>What if we could take it all
-            away?
+            We see you. <i>Tip tapping</i> on that keyboard all day. <br></br>
+            Peering into the abyss.<br></br> We both know that all that screen
+            time isn't good for you: eye strain, neck pain, Carpal tunnel...
+            <br></br>What if we could take it all away?
           </p>
           <button>Check it out 👉</button>
         </div>
         <div className={"main-page-right-container"}>
-          <h1>Our Mission</h1>
+          <p className={"mission"}>Our Mission</p>
           <ul>
             <li>
               To remind you when to give yourself, and your eyes, a little break
