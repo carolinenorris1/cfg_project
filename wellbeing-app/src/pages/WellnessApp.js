@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import "../css/globalStyles.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CountryContext from "../context/CountryContext";

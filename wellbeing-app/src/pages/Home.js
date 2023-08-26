@@ -18,10 +18,10 @@ function Home() {
       </div> */}
         <div className={"main-page-left-container"}>
           <p>
-            We see you. <i>Tip tapping</i> on that keyboard all day. <br></br>
-            Peering into the abyss.<br></br> We both know that all that screen
-            time isn't good for you: eye strain, neck pain, Carpal tunnel...
-            <br></br>What if we could take it all away?
+            We see you. <i>Tip tapping</i> on that keyboard all day. Peering
+            into the abyss. We both know that all that screen time isn't good
+            for you: eye strain, neck pain, Carpal tunnel... What if we could
+            take it all away?
           </p>
           <button>Check it out 👉</button>
         </div>

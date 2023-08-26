@@ -4,6 +4,19 @@
   background-color: #f5fff2;
   color: #000000;
 }
+.control-dots {
+  background-color: #bbd6b5;
+  height: 2rem;
+}
+
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  background-color: #bbd6b5 !important;
+  opacity: 100 !important;
+  height: 90%;
+  color: #000000 !important;
+}
+
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;800&display=swap");
 body {
@@ -93,7 +106,6 @@ Paragraph text:
 }
 
 .country-modal {
-  /* z-index: 1; */
   position: fixed;
   /* Use fixed positioning to keep it in view while scrolling */
   top: 4rem;
@@ -147,7 +159,7 @@ Paragraph text:
   border-radius: 25px;
   padding: 2rem;
   width: 80%;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   height: 350px;
 }
 
@@ -171,7 +183,7 @@ Paragraph text:
   border-radius: 25px;
   background-color: #f5fff2;
   color: #8a5a7e;
-  width: 60%;
+  width: 50%;
 }
 
 .main-page-left-container button {
@@ -252,10 +264,9 @@ Paragraph text:
   justify-content: space-between;
 }
 .community-join h1 {
-  font-size: 3.5rem;
-  padding: 12rem 0 0 3rem;
+  padding: 15rem 0 0 2rem;
+  font-size: 2.8rem;
   color: #6e8a67;
-  font-weight: 600;
 }
 
 .community-container {
@@ -265,7 +276,7 @@ Paragraph text:
 
 .community-container p {
   color: #4c574a;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .left-container {
@@ -375,6 +386,8 @@ Paragraph text:
   color: #f5fff2;
   background-color: #8a5a7e;
 }
+
+/* CAROUSEL on WELLNESSAPP */
 
 .carousel-container {
   padding: 13rem 15rem 0 15rem;
