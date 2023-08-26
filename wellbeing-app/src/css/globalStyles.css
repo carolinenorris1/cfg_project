@@ -4,18 +4,6 @@
   background-color: #f5fff2;
   color: #000000;
 }
-.control-dots {
-  background-color: #bbd6b5;
-  height: 2rem;
-}
-
-.carousel .control-arrow,
-.carousel.carousel-slider .control-arrow {
-  background-color: #bbd6b5 !important;
-  opacity: 100 !important;
-  height: 90%;
-  color: #000000 !important;
-}
 
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;800&display=swap");
@@ -394,9 +382,22 @@ Paragraph text:
 }
 
 .carousel-container h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   color: #6e8a67;
   font-weight: 600;
+}
+
+.control-dots {
+  background-color: #bbd6b5;
+  height: 2rem;
+}
+
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  background-color: #bbd6b5 !important;
+  opacity: 100 !important;
+  height: 90%;
+  color: #000000 !important;
 }
 
 .music-player {
