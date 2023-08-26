@@ -1,6 +1,7 @@
+import React from "react";
 import "../css/globalStyles.css";
 
-function Home() {
+function Home({ setSelectedPage }) {
   return (
     <div>
       <img
@@ -23,7 +24,9 @@ function Home() {
             for you: eye strain, neck pain, Carpal tunnel... What if we could
             take it all away?
           </p>
-          <button>Check it out 👉</button>
+          <button onClick={() => setSelectedPage("wellnessApp")}>
+            Check it out 👉
+          </button>
         </div>
         <div className={"main-page-right-container"}>
           <p className={"mission"}>Our Mission</p>
@@ -39,7 +42,9 @@ function Home() {
             </li>
             <li>To smile at strangers (because it's nice)</li>
           </ul>
-          <button>Let us help 👉</button>
+          <button onClick={() => setSelectedPage("wellbeing")}>
+            Let us help 👉
+          </button>
         </div>
       </div>
     </div>

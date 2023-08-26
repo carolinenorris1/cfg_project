@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../src/css/globalStyles.css";
 import Header from "./components/Header";
 import Home from "../src/pages/Home";
@@ -10,14 +10,13 @@ import MainSection from "../src/components/MainSection";
 import Footer from "../src/components/Footer";
 import { CountryProvider } from "./context/CountryContext";
 
-
 function MainPage() {
   const [selectedPage, setSelectedPage] = useState("home");
 
   const renderSelectedPage = () => {
     switch (selectedPage) {
       case "home":
-        return <Home />;
+        return <Home setSelectedPage={setSelectedPage} />;
       case "wellbeing":
         return <Wellbeing />;
       case "wellnessApp":
