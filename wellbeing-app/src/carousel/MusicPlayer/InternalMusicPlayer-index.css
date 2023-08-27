@@ -14,10 +14,6 @@
     font-family: 'Fira Sans',sans-serif;
   }
   
-  /* body {
-    background-color: #ddd;
-  } */
-  
   .MusicPlayer {
     display: flex;
     align-items: right;
@@ -64,9 +60,7 @@
    max-width: 350px;
    border: radius 50%;
    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
-   margin-bottom: 5px;
-   /* For the border-radius to work you need perfectly square images  */
-    
+   margin-bottom: 5px;    
   }
   
   .c-player--details .details-title {
@@ -97,7 +91,6 @@
     margin: 0 30px;
     padding: 20px;
     border-radius: 100%;
-    /* box-shadow:  inset 3px 2px 5px 0 rgba(255,255,255, .5), rgba(104, 139, 255, 0.1) 7px 3px 10px, rgba(0,0,0, 0.1) 7px 5px 10px; */
     border: none;
     outline: none;
     color: #abb3c7 ;

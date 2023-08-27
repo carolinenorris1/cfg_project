@@ -13,7 +13,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* Action buttons:
+/* Design details from the wireframe:
+Action buttons:
 Font is "Inter" and I used semi-bold for headings and light for text. 
 fill: #F5FFF2
 border and text: #8A5A7E
@@ -189,7 +190,6 @@ Paragraph text:
 }
 
 /* WELLBEING */
-
 .wellbeing-container {
   padding-top: 3rem;
 }
@@ -246,7 +246,6 @@ Paragraph text:
 }
 
 /* COMMUNITY */
-
 .community-join {
   display: flex;
   justify-content: space-between;
@@ -376,7 +375,6 @@ Paragraph text:
 }
 
 /* CAROUSEL on WELLNESSAPP */
-
 .carousel-container {
   padding: 13rem 15rem 0 15rem;
 }

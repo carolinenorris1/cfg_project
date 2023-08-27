@@ -82,8 +82,6 @@ function EyeTimer() {
           </p>
         </p>
       </div>
-
-      {/* <p>insert YouTube video link here</p> */}
       <div className="timer-wrapper">
         <CountdownCircleTimer
           isPlaying={isPlaying}
@@ -91,7 +89,6 @@ function EyeTimer() {
           key={key}
           size={350}
           colors={["#8a5a7e", "#F7B801", "#A30000", "#A30000"]}
-          //   colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
           colorsTime={[10, 6, 3, 0]}
           onComplete={() => ({ shouldRepeat: true, delay: breakTimeInSeconds })}
         >

@@ -14,9 +14,6 @@ function Home({ setSelectedPage }) {
         <p>Time to UnHook</p>
       </div>
       <div className={"main-page-txt-container"}>
-        {/* <div className = {"eye-thumbnail"}>
-      <img src = "images\home-images\Eye-timer.png"></img>
-      </div> */}
         <div className={"main-page-left-container"}>
           <p>
             We see you. <i>Tip tapping</i> on that keyboard all day. Peering
