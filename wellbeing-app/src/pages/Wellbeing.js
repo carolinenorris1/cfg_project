@@ -5,6 +5,7 @@ function Wellbeing() {
     <div className={"wellbeing-container"}>
       <div className={"wellbeing-motto"}>
         <p>How we can help and why it matters.</p>
+        <p>Content coming soon! Stay tuned.</p>
       </div>
       <div className={"wellbeing-gallery-container"}>
         <div>
