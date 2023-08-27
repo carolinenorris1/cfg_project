@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when user views the eye timer on the carousel 1`] = `
+<div
+  className="timer"
+>
+  <div
+    className="timer-instructions"
+  >
+    <h4>
+      Set screen break reminders
+    </h4>
+    <p>
+      Take frequent breaks from your screen. Your eyes can become tired when you use them for long periods. Taking frequent breaks from the screen can help to avoid tired eyes and headaches.
+      <p>
+        The 20, 20, 20 rule suggests taking a break of at least 20 seconds, every 20 minutes and to look at least 20 feet away.
+      </p>
+    </p>
+  </div>
+  <div
+    className="timer-wrapper"
+  >
+    <div
+      style={
+        Object {
+          "height": 350,
+          "position": "relative",
+          "width": 350,
+        }
+      }
+    >
+      <svg
+        height={350}
+        viewBox="0 0 350 350"
+        width={350}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m 175,6 a 169,169 0 1,0 0,338 a 169,169 0 1,0 0,-338"
+          fill="none"
+          stroke="#d9d9d9"
+          strokeWidth={12}
+        />
+        <path
+          d="m 175,6 a 169,169 0 1,0 0,338 a 169,169 0 1,0 0,-338"
+          fill="none"
+          stroke="#8a5a7e"
+          strokeDasharray={1061.85831691335}
+          strokeDashoffset={0}
+          strokeLinecap="round"
+          strokeWidth={12}
+        />
+      </svg>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      >
+        <div
+          className="timer"
+        >
+          <img
+            alt="pair of eyes looking side to side"
+            src="eye-animation-side-to-side.gif"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="timer-setting"
+  >
+    <form>
+      <p>
+        <b>
+          Set timer here:
+        </b>
+      </p>
+      <label
+        htmlFor="run_time"
+      >
+        Run time (minutes)
+      </label>
+      <input
+        name="run_time"
+        onChange={[Function]}
+        required={true}
+        type="number"
+        value={20}
+      />
+      <label
+        htmlFor="break_time"
+      >
+        Break time (seconds)
+      </label>
+      <input
+        name="break_time"
+        onChange={[Function]}
+        required={true}
+        type="number"
+        value={20}
+      />
+      <label>
+        Choose your alarm sound:
+        <select
+          onChange={[Function]}
+          value="mechanical-alarm-clock-trimmed.mp3"
+        >
+          <option
+            value="mechanical-alarm-clock-trimmed.mp3"
+          >
+            Alarm clock
+          </option>
+          <option
+            value="birds-singing-trimmed.mp3"
+          >
+            Bird song
+          </option>
+          <option
+            value="crowd-cheer-trimmed.mp3"
+          >
+            Cheering crowd
+          </option>
+          <option
+            value="motivational-trimmed.mp3"
+          >
+            Motivational music
+          </option>
+          <option
+            value="the-last-piano-trimmed.mp3"
+          >
+            Piano playing
+          </option>
+          <option
+            value="cottagecore-trimmed.mp3"
+          >
+            Soothing music
+          </option>
+        </select>
+      </label>
+      <button
+        onClick={[Function]}
+        type="submit"
+      >
+        Start timer
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        Reset
+      </button>
+    </form>
+  </div>
+</div>
+`;

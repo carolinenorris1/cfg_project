@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when user runs the app 1`] = `
+<div>
+  <img
+    alt="Photograph of woman sitting on a bench outside, working on a laptop."
+    className="hero-image"
+    src="images/home-images/hero.jpg"
+  />
+  <div
+    className="slogan"
+  >
+    <p>
+      Time to UnHook
+    </p>
+  </div>
+  <div
+    className="main-page-txt-container"
+  >
+    <div
+      className="main-page-left-container"
+    >
+      <p>
+        We see you. 
+        <i>
+          Tip tapping
+        </i>
+         on that keyboard all day. 
+        <br />
+        Peering into the abyss.
+        <br />
+         We both know that all that screen time isn't good for you: eye strain, neck pain, Carpal tunnel...
+        <br />
+        What if we could take it all away?
+      </p>
+      <button>
+        Check it out 👉
+      </button>
+    </div>
+    <div
+      className="main-page-right-container"
+    >
+      <p
+        className="mission"
+      >
+        Our Mission
+      </p>
+      <ul>
+        <li>
+          To remind you when to give yourself, and your eyes, a little break (because we know you forget)
+        </li>
+        <li>
+          To stop working from home being so painful (literally) 
+        </li>
+        <li>
+          To help you be the healthiest & most productive version of yourself
+        </li>
+        <li>
+          To smile at strangers (because it's nice)
+        </li>
+      </ul>
+      <button>
+        Let us help 👉
+      </button>
+    </div>
+  </div>
+</div>
+`;

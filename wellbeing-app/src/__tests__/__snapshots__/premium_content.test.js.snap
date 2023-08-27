@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when user views the premium content with default country value on the carousel 1`] = `
+<div>
+  <p>
+    Want to discover even more great features?
+  </p>
+  <p>
+    For just 
+    <b>
+      £2.99/month
+    </b>
+    , you can unlock even more tools to help you 
+    <b>
+      UnHook
+    </b>
+    .
+  </p>
+</div>
+`;

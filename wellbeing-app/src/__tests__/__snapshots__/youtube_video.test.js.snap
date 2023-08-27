@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when user views the youtube video on the carousel 1`] = `
+<iframe
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowFullScreen={true}
+  frameBorder="0"
+  height="675"
+  src="https://www.youtube.com/embed/hzUStg_pGBE"
+  title="YouTube video player"
+  width="500"
+/>
+`;
