@@ -117,6 +117,17 @@ exports[`renders correctly when user navigates to the Wellbeing page 1`] = `
             Caroline
           </p>
         </div>
+        <div>
+          <p>
+            "I often experienced migraines due to staring at my screen for a long time when working. UnHook helps me to give my eyes a well-deserved rest and to relax my body. The small exercises are fun to do alognwith the calming music.Now, my migraines are less frequent and I have a much more balanced work routine.
+             
+          </p>
+          <p
+            className="testimonial-name"
+          >
+            Roinee
+          </p>
+        </div>
       </div>
     </div>
     <div>

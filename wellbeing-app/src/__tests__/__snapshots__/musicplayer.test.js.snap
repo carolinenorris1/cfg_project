@@ -22,7 +22,7 @@ exports[`renders correctly when user views the music player on the carousel 1`] 
         >
           <img
             alt=""
-            src="./images/song-1.jpeg"
+            src="./images/music-player-images/song-1.jpeg"
           />
         </div>
         <h3

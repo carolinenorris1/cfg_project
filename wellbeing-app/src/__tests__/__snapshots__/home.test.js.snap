@@ -25,15 +25,11 @@ exports[`renders correctly when user runs the app 1`] = `
         <i>
           Tip tapping
         </i>
-         on that keyboard all day. 
-        <br />
-        Peering into the abyss.
-        <br />
-         We both know that all that screen time isn't good for you: eye strain, neck pain, Carpal tunnel...
-        <br />
-        What if we could take it all away?
+         on that keyboard all day. Peering into the abyss. We both know that all that screen time isn't good for you: eye strain, neck pain, Carpal tunnel... What if we could take it all away?
       </p>
-      <button>
+      <button
+        onClick={[Function]}
+      >
         Check it out 👉
       </button>
     </div>
@@ -59,7 +55,9 @@ exports[`renders correctly when user runs the app 1`] = `
           To smile at strangers (because it's nice)
         </li>
       </ul>
-      <button>
+      <button
+        onClick={[Function]}
+      >
         Let us help 👉
       </button>
     </div>
