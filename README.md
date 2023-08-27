@@ -18,8 +18,8 @@ The principle features of the app are: the eye timer, which allows you to custom
 
 ### Screenshots
 
-![Homepage image](https://github.com/carolinenorris1/cfg_project/blob/website-images/Home-1.png?raw=true) \
-![Eye timer app](https://github.com/carolinenorris1/cfg_project/blob/Website-images/website-images/App-4.png?raw=true)
+![Homepage image](https://github.com/carolinenorris1/cfg_project/blob/main/website-images/Home-1.png?raw=true) \
+![Eye timer app](https://github.com/carolinenorris1/cfg_project/blob/main/website-images/App-4.png?raw=true)
 
 
 #### Project status
