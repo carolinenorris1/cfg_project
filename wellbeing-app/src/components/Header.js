@@ -41,10 +41,10 @@ function Header({ setSelectedPage }) {
         ></img>
       </div>
       <div className={"country-modal"}>
-        <Button variant="primary" onClick={handleShow}>
+        <Button variant="primary" onClick={handleShow} data-testid="btn-modal">
           {country}
         </Button>
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} data-testid="country-modal">
           <Modal.Header closeButton>
             <Modal.Title>
               Where in the world are you visiting us from?
@@ -60,10 +60,18 @@ function Header({ setSelectedPage }) {
             </Modal.Body>
             <Modal.Footer>
               Can't see your region listed? We hope to be available to you soon!
-              <Button variant="secondary" onClick={handleClose}>
+              <Button
+                variant="secondary"
+                onClick={handleClose}
+                data-testid="btn-modal-close"
+              >
                 Close
               </Button>
-              <Button variant="primary" type="submit">
+              <Button
+                variant="primary"
+                type="submit"
+                data-testid="btn-modal-update"
+              >
                 Update
               </Button>
             </Modal.Footer>

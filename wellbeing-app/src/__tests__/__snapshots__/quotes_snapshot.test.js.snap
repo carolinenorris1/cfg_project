@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when user views the daily quote on the carousel 1`] = `
+<div>
+  <p>
+    Quote for today:
+  </p>
+  <h2
+    id="quote"
+  />
+  <p
+    id="author"
+  >
+    — 
+  </p>
+</div>
+`;

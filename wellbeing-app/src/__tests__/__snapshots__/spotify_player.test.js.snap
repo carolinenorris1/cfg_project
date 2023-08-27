@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when user views the spotify player on the carousel 1`] = `
+<iframe
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  allowfullscreen=""
+  frameBorder="0"
+  height="675"
+  loading="lazy"
+  src="https://open.spotify.com/embed/playlist/5qQBuK3Q0iYlGmrjJCy6Ri?utm_source=generator"
+  width="100%"
+/>
+`;
